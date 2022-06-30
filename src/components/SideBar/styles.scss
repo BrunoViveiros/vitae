@@ -3,7 +3,7 @@
   max-width: 500px;
   height: 100%;
 
-  padding: 4rem;
+  padding: 3rem;
 
   font-size: 1.1rem;
   font-weight: 500;
@@ -16,7 +16,8 @@
     border: 4px solid #fff;
     border-radius: 50%;
 
-    margin-bottom: 4rem;
+    max-width: 260px;
+    margin: 0 auto 4rem;
 
     overflow: hidden;
     img {
