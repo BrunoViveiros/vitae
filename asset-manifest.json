@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vitae/static/css/main.b22dba94.css",
+    "main.js": "/vitae/static/js/main.173a47cc.js",
+    "index.html": "/vitae/index.html",
+    "main.b22dba94.css.map": "/vitae/static/css/main.b22dba94.css.map",
+    "main.173a47cc.js.map": "/vitae/static/js/main.173a47cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b22dba94.css",
+    "static/js/main.173a47cc.js"
+  ]
+}
