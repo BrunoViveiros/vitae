@@ -12,106 +12,15 @@
   color: #fdfdfd;
   background-color: #3c3c3c;
 
-  .side-bar__photo {
-    border: 4px solid #fff;
-    border-radius: 50%;
+  &__section {
+    margin-bottom: 3.5rem;
 
-    max-width: 260px;
-    margin: 0 auto 4rem;
-
-    overflow: hidden;
-    img {
-      width: 100%;
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 
-  .side-bar__info {
-    .side-section {
-      margin-bottom: 3.5rem;
-
-      .side-section__title {
-        font-size: 1.8rem;
-        font-weight: 700;
-        margin-bottom: 2rem;
-
-        &::after {
-          content: "";
-          display: block;
-          width: 100%;
-          height: 3px;
-          margin-top: 0.3rem;
-          background-color: #fff;
-        }
-      }
-
-      .side-section__info {
-        padding-bottom: 1rem;
-
-        &:last-child {
-          padding-bottom: 0;
-        }
-
-        p {
-          font-weight: 700;
-        }
-      }
-
-      .side-section__text-header {
-        margin-bottom: 3rem;
-      }
-
-      .side-section__text {
-        line-height: 1.4;
-        text-align: justify;
-      }
-
-      .side-section__skills {
-        display: flex;
-        flex-direction: column;
-        row-gap: 0.5rem;
-
-        margin-bottom: 3rem;
-
-        &:last-child {
-          margin-bottom: 0;
-        }
-
-        .side-section__skills-item {
-          display: grid;
-          grid-template-columns: auto 50%;
-          grid-gap: 1rem;
-          align-items: center;
-
-          div {
-            position: relative;
-
-            width: 100%;
-            height: 26px;
-
-            background-color: #ededed;
-            overflow: hidden;
-
-            &::after {
-              content: "";
-              position: absolute;
-              display: block;
-              width: 100%;
-              height: 100%;
-              background-color: #9c9c9c;
-
-              left: 0;
-              top: 0;
-
-              transform: translateX(-50%);
-            }
-          }
-
-          p {
-            font-weight: 700;
-            line-height: 1;
-          }
-        }
-      }
-    }
+  &__photo {
+    margin-bottom: 3rem;
   }
 }
